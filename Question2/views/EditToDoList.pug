@@ -1,0 +1,7 @@
+h1 Edit Todos
+    form(action="/edit/"+todos._id, method="post" )
+        .form-group
+            <label for="name">Edit todos:</label>
+            input(type="text" placeholder="edit todos" name = "todos" value=todos.name)
+        .form-group    
+            input(type= "submit")

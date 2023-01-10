@@ -1,0 +1,10 @@
+extends layout
+block content 
+    body
+        h1 Add Todos
+        form(action="/addTodos", method="post" )
+            .form-group
+                <label for="name">Add todos:</label>
+                <input type="text" placeholder="Enter todos" name = "todos">
+            .form-group    
+                input(type= "submit")

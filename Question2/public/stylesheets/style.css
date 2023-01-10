@@ -1,0 +1,20 @@
+.buttons {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 20%;
+}
+
+.space {
+  width: 50%;
+}
+
+.edit,
+.delete {
+  margin-left: 2%;
+}
+
+.todos {
+  color: red;
+  background-color: aqua;
+}

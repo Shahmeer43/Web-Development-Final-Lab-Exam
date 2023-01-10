@@ -1,0 +1,10 @@
+extends layout 
+
+block content
+    <a href="/addTodos" class="buttons">Add Todos</a>
+    each data in todos 
+        li(class="todos")=data.name
+        div(class="space") 
+            a(href="/delete/"+data._id class="buttons delete") Delete
+            a(href="/edit/"+data._id class="buttons edit") Edit
+                    
